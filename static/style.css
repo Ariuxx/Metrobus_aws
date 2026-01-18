@@ -1,0 +1,80 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Eliminar márgenes para usar el espacio completo */
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Usar flexbox para centrar */
+    flex-direction: column; /* Apila los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.title-container {
+    margin-right: 50px; /* Ajusta este valor para mover el título hacia abajo */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Centra el texto del título */
+}
+
+/* Estilos para el formulario */
+.form-container {
+    margin-top: 10px; /* Ajusta este valor para mover el formulario hacia abajo */
+}
+
+form {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el formulario */
+}
+
+input {
+    display: block;
+    margin: 10px 0; /* Margen entre campos de entrada */
+    padding: 10px; /* Espaciado interno */
+    width: 200px; /* Ancho fijo para los campos de entrada */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 4px; /* Bordes redondeados en los campos de entrada */
+}
+
+button {
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #28a745; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados en el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #218838; /* Color del botón al pasar el mouse */
+}
+
+/* Estilos para la tabla */
+.table-container {
+    max-height: 400px; /* Altura máxima del contenedor */
+    overflow-y: auto;  /* Permitir desplazamiento vertical */
+    border: 1px solid #ccc; /* Borde alrededor del contenedor */
+    margin-top: 20px; /* Espacio entre el formulario y la tabla */
+    background-color: white; /* Fondo blanco para el contenedor de la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Para eliminar el espacio entre bordes */
+}
+
+th, td {
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+    border-bottom: 1px solid #ddd; /* Línea inferior en las celdas */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para encabezados */
+}
